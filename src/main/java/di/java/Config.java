@@ -1,0 +1,28 @@
+package di.java;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+
+@ComponentScan(basePackages = {"di.java"})
+@Configuration
+public class Config {
+/*
+	@Bean
+	public Car car() {
+		return new Car();
+	}
+	
+	@Bean
+	@Qualifier("hankook")
+	public Tire hankookTire() {
+		return new HankookTire();
+	}
+	
+	@Bean(name="kumho")   // <bean class="di.java.KumhoTire" id="kumho"/> ¶û °°Àº ¶æÀÓ 
+	public Tire kumhoTire() {
+		return new KumhoTire();
+	}
+	*/
+}
+
